@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350E57F824333758000C150E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E57F724333758000C150E /* AppDelegate.swift */; };
+		350E57FA24333758000C150E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E57F924333758000C150E /* SceneDelegate.swift */; };
+		350E57FC24333758000C150E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E57FB24333758000C150E /* ViewController.swift */; };
+		350E57FF24333758000C150E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350E57FD24333758000C150E /* Main.storyboard */; };
+		350E58012433375E000C150E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350E58002433375E000C150E /* Assets.xcassets */; };
+		350E58042433375E000C150E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350E58022433375E000C150E /* LaunchScreen.storyboard */; };
+		350E5811243339C3000C150E /* GCDBlackbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E5810243339C3000C150E /* GCDBlackbox.swift */; };
+		350E5821243341E2000C150E /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E5820243341E2000C150E /* CoreDataStack.swift */; };
+		350E583E243349F8000C150E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 350E583C243349F8000C150E /* Model.xcdatamodeld */; };
+		350E584324334A7A000C150E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E583F24334A7A000C150E /* Post.swift */; };
+		350E584424334A7A000C150E /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E584024334A7A000C150E /* Post+CoreDataProperties.swift */; };
+		350E584524334A7A000C150E /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E584124334A7A000C150E /* Comment.swift */; };
+		350E584624334A7A000C150E /* Comment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E584224334A7A000C150E /* Comment+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		350E57F424333758000C150E /* PhotoshopBattles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoshopBattles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		350E57F724333758000C150E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		350E57F924333758000C150E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		350E57FB24333758000C150E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		350E57FE24333758000C150E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		350E58002433375E000C150E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		350E58032433375E000C150E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		350E58052433375E000C150E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350E5810243339C3000C150E /* GCDBlackbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDBlackbox.swift; sourceTree = "<group>"; };
+		350E5820243341E2000C150E /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		350E583D243349F8000C150E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		350E583F24334A7A000C150E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		350E584024334A7A000C150E /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		350E584124334A7A000C150E /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		350E584224334A7A000C150E /* Comment+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comment+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350E57F124333758000C150E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		350E57EB24333758000C150E = {
+			isa = PBXGroup;
+			children = (
+				350E57F624333758000C150E /* PhotoshopBattles */,
+				350E57F524333758000C150E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		350E57F524333758000C150E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				350E57F424333758000C150E /* PhotoshopBattles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		350E57F624333758000C150E /* PhotoshopBattles */ = {
+			isa = PBXGroup;
+			children = (
+				350E580C24333966000C150E /* Client */,
+				350E57F724333758000C150E /* AppDelegate.swift */,
+				350E581424333EA1000C150E /* Model */,
+				350E5810243339C3000C150E /* GCDBlackbox.swift */,
+				350E57F924333758000C150E /* SceneDelegate.swift */,
+				350E57FB24333758000C150E /* ViewController.swift */,
+				350E57FD24333758000C150E /* Main.storyboard */,
+				350E58002433375E000C150E /* Assets.xcassets */,
+				350E58022433375E000C150E /* LaunchScreen.storyboard */,
+				350E58052433375E000C150E /* Info.plist */,
+			);
+			path = PhotoshopBattles;
+			sourceTree = "<group>";
+		};
+		350E580C24333966000C150E /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				350E580F24333984000C150E /* Imgur */,
+				350E580D2433396E000C150E /* Reddit */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		350E580D2433396E000C150E /* Reddit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reddit;
+			sourceTree = "<group>";
+		};
+		350E580F24333984000C150E /* Imgur */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Imgur;
+			sourceTree = "<group>";
+		};
+		350E581424333EA1000C150E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				350E583F24334A7A000C150E /* Post.swift */,
+				350E584024334A7A000C150E /* Post+CoreDataProperties.swift */,
+				350E584124334A7A000C150E /* Comment.swift */,
+				350E584224334A7A000C150E /* Comment+CoreDataProperties.swift */,
+				350E5820243341E2000C150E /* CoreDataStack.swift */,
+				350E583C243349F8000C150E /* Model.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		350E57F324333758000C150E /* PhotoshopBattles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350E58082433375E000C150E /* Build configuration list for PBXNativeTarget "PhotoshopBattles" */;
+			buildPhases = (
+				350E57F024333758000C150E /* Sources */,
+				350E57F124333758000C150E /* Frameworks */,
+				350E57F224333758000C150E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoshopBattles;
+			productName = PhotoshopBattles;
+			productReference = 350E57F424333758000C150E /* PhotoshopBattles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		350E57EC24333758000C150E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Dane Miller";
+				TargetAttributes = {
+					350E57F324333758000C150E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 350E57EF24333758000C150E /* Build configuration list for PBXProject "PhotoshopBattles" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 350E57EB24333758000C150E;
+			productRefGroup = 350E57F524333758000C150E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				350E57F324333758000C150E /* PhotoshopBattles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		350E57F224333758000C150E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350E58042433375E000C150E /* LaunchScreen.storyboard in Resources */,
+				350E58012433375E000C150E /* Assets.xcassets in Resources */,
+				350E57FF24333758000C150E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		350E57F024333758000C150E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350E584524334A7A000C150E /* Comment.swift in Sources */,
+				350E5811243339C3000C150E /* GCDBlackbox.swift in Sources */,
+				350E584424334A7A000C150E /* Post+CoreDataProperties.swift in Sources */,
+				350E584324334A7A000C150E /* Post.swift in Sources */,
+				350E584624334A7A000C150E /* Comment+CoreDataProperties.swift in Sources */,
+				350E57FC24333758000C150E /* ViewController.swift in Sources */,
+				350E5821243341E2000C150E /* CoreDataStack.swift in Sources */,
+				350E57F824333758000C150E /* AppDelegate.swift in Sources */,
+				350E583E243349F8000C150E /* Model.xcdatamodeld in Sources */,
+				350E57FA24333758000C150E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		350E57FD24333758000C150E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350E57FE24333758000C150E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		350E58022433375E000C150E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350E58032433375E000C150E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		350E58062433375E000C150E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		350E58072433375E000C150E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		350E58092433375E000C150E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JVR64PHHU5;
+				INFOPLIST_FILE = PhotoshopBattles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = drellimal2.github.io.PhotoshopBattles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		350E580A2433375E000C150E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JVR64PHHU5;
+				INFOPLIST_FILE = PhotoshopBattles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = drellimal2.github.io.PhotoshopBattles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		350E57EF24333758000C150E /* Build configuration list for PBXProject "PhotoshopBattles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350E58062433375E000C150E /* Debug */,
+				350E58072433375E000C150E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350E58082433375E000C150E /* Build configuration list for PBXNativeTarget "PhotoshopBattles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350E58092433375E000C150E /* Debug */,
+				350E580A2433375E000C150E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		350E583C243349F8000C150E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				350E583D243349F8000C150E /* Model.xcdatamodel */,
+			);
+			currentVersion = 350E583D243349F8000C150E /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 350E57EC24333758000C150E /* Project object */;
+}
